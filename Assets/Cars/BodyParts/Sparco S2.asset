@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 313fd49a1442fd3409b6c584ac58379a, type: 3}
-  m_Name: Sparco S1
+  m_Name: Sparco S2
   m_EditorClassIdentifier: 
   bodyPartType: {fileID: 11400000, guid: 9ea9e459c2dc53b4f9f418e1ee95e7f3, type: 2}
   Name: Sparco S1
@@ -22,16 +22,20 @@ MonoBehaviour:
   affectingOnSpecificationList:
   - specificationType: {fileID: 11400000, guid: be3d9fd87ea3aa94e932f96c24dc2aa4,
       type: 2}
+    affectingType: 1
+    AffectingValue: 20
+  - specificationType: {fileID: 11400000, guid: 464f7ff794c2749459c63c4054cd55d7,
+      type: 2}
     affectingType: 2
-    AffectingValue: 1500
-  - specificationType: {fileID: 11400000, guid: 77d52fd8e67147a4691233a8a49600bc,
+    AffectingValue: 5
+  - specificationType: {fileID: 11400000, guid: 91b88704809963e4faafbc8ae5b5ff6c,
+      type: 2}
+    affectingType: 0
+    AffectingValue: 1.2
+  - specificationType: {fileID: 11400000, guid: cff22a818b7901d48ad1ee6cc717e04b,
       type: 2}
     affectingType: 1
-    AffectingValue: -3
-  - specificationType: {fileID: 11400000, guid: 01b412ea07713de47a205f4ace22e826,
-      type: 2}
-    affectingType: 1
-    AffectingValue: -50
+    AffectingValue: -2
   avaliableCarList:
   - {fileID: 11400000, guid: 2ad7aee9fb2fa0f44a61fd0a37fd7e87, type: 2}
   - {fileID: 11400000, guid: f68bcb53652e77c46926e2ec05e926c9, type: 2}

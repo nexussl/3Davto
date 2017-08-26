@@ -9,10 +9,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 313fd49a1442fd3409b6c584ac58379a, type: 3}
-  m_Name: New Body Part
+  m_Name: S5
   m_EditorClassIdentifier: 
-  bodyPartType: {fileID: 0}
-  Name: New Body Part
+  bodyPartType: {fileID: 11400000, guid: 9c9bc3c565b1e854098ab6b0c0f84e0a, type: 2}
+  Name: S5
   bodyPartPrefab: {fileID: 0}
+  BodyPartImage: {fileID: 0}
   material: {fileID: 0}
+  description: 
+  Price: 0
+  uniqueID: 0
+  affectingOnSpecificationList:
+  - specificationType: {fileID: 11400000, guid: 464f7ff794c2749459c63c4054cd55d7,
+      type: 2}
+    affectingType: 1
+    AffectingValue: 20
+  - specificationType: {fileID: 11400000, guid: 87a2c38bda83f0f47a052eb8fd366a37,
+      type: 2}
+    affectingType: 1
+    AffectingValue: -3
+  - specificationType: {fileID: 11400000, guid: be3d9fd87ea3aa94e932f96c24dc2aa4,
+      type: 2}
+    affectingType: 1
+    AffectingValue: -4
   avaliableCarList: []

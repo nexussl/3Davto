@@ -14,15 +14,40 @@ MonoBehaviour:
   manufacturer: {fileID: 11400000, guid: 76da834e874ef114bbfdfa582f7c8f05, type: 2}
   modelName: Q6
   modelLogo: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  generation: 
   carPrefab: {fileID: 0}
   uniqueID: 556565
   mileage: 0
   oilLevel: 100
   dirtLevel: 0
+  baseSpecificationsList:
+  - specificationType: {fileID: 11400000, guid: cff22a818b7901d48ad1ee6cc717e04b,
+      type: 2}
+    baseValue: 25
+  - specificationType: {fileID: 11400000, guid: 75ed8c523bc42e949b684abf9de61618,
+      type: 2}
+    baseValue: 12
+  - specificationType: {fileID: 11400000, guid: 91b88704809963e4faafbc8ae5b5ff6c,
+      type: 2}
+    baseValue: 50
+  - specificationType: {fileID: 11400000, guid: 77d52fd8e67147a4691233a8a49600bc,
+      type: 2}
+    baseValue: 250
+  - specificationType: {fileID: 11400000, guid: 87a2c38bda83f0f47a052eb8fd366a37,
+      type: 2}
+    baseValue: 5
+  - specificationType: {fileID: 11400000, guid: 464f7ff794c2749459c63c4054cd55d7,
+      type: 2}
+    baseValue: 250
+  - specificationType: {fileID: 11400000, guid: c030492c30ca6264c90268179459740f,
+      type: 2}
+    baseValue: 150
+  - specificationType: {fileID: 11400000, guid: be3d9fd87ea3aa94e932f96c24dc2aa4,
+      type: 2}
+    baseValue: 1300
   bodyMaterial: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
   bodyTexture: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}
   installedBodyParts:
   - {fileID: 11400000, guid: 47297ca9ad5a168409f208093c618d59, type: 2}
-  - {fileID: 0}
   fullPrice: 50000
   sellPrice: 45000
