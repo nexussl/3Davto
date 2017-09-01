@@ -8,8 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b69cc8e38b6f8a84eb42c38c7cd68b1a, type: 3}
-  m_Name: Dirtability
+  m_Script: {fileID: 11500000, guid: b4bda6c933c0f8b40b5790904d632ce2, type: 3}
+  m_Name: Mitsubishi
   m_EditorClassIdentifier: 
-  title: Dirtability
-  unit: '%'
+  title: Mitsubishi
+  logo: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}

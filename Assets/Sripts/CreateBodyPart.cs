@@ -5,9 +5,9 @@ using UnityEditor;
 public class CreateBodyPart
 {
     static string path = "Assets/Cars/BodyParts";
-    [MenuItem("Assets/Create/Cars/Body Part")]
+    //[MenuItem("Assets/Create/Cars/Body Part")]
 
-    public static void Create()
+    public static BodyPart Create(BodyPartType BodyPartType)
     {
         if (!AssetDatabase.IsValidFolder("Assets/Cars"))
         {
@@ -20,9 +20,11 @@ public class CreateBodyPart
         }
 
         BodyPart asset = ScriptableObject.CreateInstance<BodyPart>();
+        asset.bodyPartType = BodyPartType;
         AssetDatabase.CreateAsset(asset, AssetDatabase.GenerateUniqueAssetPath(path + "/New Body Part.asset"));
         AssetDatabase.SaveAssets();
         EditorUtility.FocusProjectWindow();
         Selection.activeObject = asset;
+        return asset;
     }
 }

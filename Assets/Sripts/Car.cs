@@ -18,7 +18,7 @@ public class Car : ScriptableObject
     public Sprite modelLogo;
     public string generation;
     public GameObject carPrefab;
-    public int uniqueID;
+    public uint uniqueID;
 
     public uint mileage = 0;
     [Range(0, 100)]
